@@ -52,7 +52,7 @@ class PrototypesController < ApplicationController
   end
 
   def others_index
-    unless current_user.id == params[:id]
+    unless current_user.id == Prototype.find(params[:id]).user.id
       redirect_to action: :index
     end
   end
