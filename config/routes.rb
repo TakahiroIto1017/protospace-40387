@@ -24,7 +24,7 @@ Rails.application.routes.draw do
 # Prefix                   Verb   URI Pattern                    Controller#Action
 # root                     GET    /                              prototypes#index
 # prototypes               GET    /prototypes(.:format)          prototypes#index
-# prototypes               POST   /prototypes(.:format)          prototypes#create
+#                          POST   /prototypes(.:format)          prototypes#create
 # new_prototype            GET    /prototypes/new(.:format)      prototypes#new
 # edit_prototype           GET    /prototypes/:id/edit(.:format) prototypes#edit
 # prototype                GET    /prototypes/:id(.:format)      prototypes#show
